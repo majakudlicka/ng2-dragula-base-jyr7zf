@@ -3,24 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@angular/animations": "^14.2.12",
-    "@angular/cdk": "^14.2.7",
+    "@angular/animations": "14.3.0",
     "@angular/common": "^14.2.12",
     "@angular/compiler": "^14.2.12",
     "@angular/core": "^14.2.12",
-    "@angular/flex-layout": "^14.0.0-beta.40",
     "@angular/forms": "^14.2.12",
-    "@angular/material": "^14.2.7",
     "@angular/platform-browser": "^14.2.12",
     "@angular/platform-browser-dynamic": "^14.2.12",
     "@angular/router": "^14.2.12",
-    "ng2-dragula": "^2.1.1",
-    "ngx-dropzone": "^3.1.0",
-    "ngx-quill": "^19.0.1",
-    "quill": "^1.3.7",
+    "@types/dragula": "^2.1.34",
+    "dragula": "^3.7.2",
+    "ng2-dragula": "^3.2.0",
     "rxjs": "^7.8.0",
-    "store": "^2.0.12",
-    "uuid": "^9.0.0",
     "zone.js": "~0.11.4"
   },
   "scripts": {
@@ -37,9 +31,6 @@
     "@angular-eslint/eslint-plugin": "^12.7.0",
     "@angular/cli": "^14.2.10",
     "@angular/compiler-cli": "^14.2.12",
-    "@types/core-js": "2.5.2",
-    "@types/jest": "^27.5.2",
-    "@types/lodash": "^4.14.189",
-    "@types/node": "^16.11.62"
+    "@types/core-js": "2.5.2"
   }
 }
