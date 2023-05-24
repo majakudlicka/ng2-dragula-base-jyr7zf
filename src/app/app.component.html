@@ -1,0 +1,16 @@
+<h3><code>ng2-dragula</code></h3>
+
+<!-- these are some basics to get you started -- modify as you see fit. -->
+
+<table>
+  <tbody dragula="VAMPIRES" [(dragulaModel)]="vamps">
+    <tr class="vamp" *ngFor="let vamp of vamps">
+      {{
+        vamp.name
+      }}
+    </tr>
+  </tbody>
+</table>
+<br />
+<br />
+<button (click)="vamps.push({ name: 'last vamp' })">ADD VAMP</button>
